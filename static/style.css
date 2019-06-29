@@ -1,0 +1,27 @@
+#table-area th {
+  text-align: center;
+}
+
+#table-area th:first-child,
+#table-area th:nth-child(2),
+#table-area th:nth-child(6) {
+  min-width: 70px;
+}
+
+#songs-table{
+    overflow-y:scroll;
+    height:500px;
+    display:block;
+ }
+
+#backgroundimage {
+    position: relative;
+    margin: 0;
+    background-attachment: fixed;
+    background-position: bottom center;
+    background-size: cover;
+}
+
+#button {
+    color:red
+}
